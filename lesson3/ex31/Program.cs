@@ -43,3 +43,26 @@ int Method3()
 
 int year = Method3();
 Console.WriteLine(year);
+
+
+
+//метод принимает значения и возвращает 1 значение
+
+string Method4(int count,string Text)
+{
+    int i = 0;
+    string result = String.Empty; //обозначает что строка пустая
+
+    while (i < count)
+    {
+        result = result + Text;
+        i++;
+    }
+    return result;
+}
+
+//string res = Method4(count: 10, Text: "Oz");
+string res = Method4(5,"Ri");
+Console.WriteLine(res);
+
+
