@@ -33,9 +33,10 @@ string NewText = Replace(text, ' ', '|');
 Console.WriteLine(NewText);
 
 Console.WriteLine();
-NewText = Replace(Newtext, 'к', 'К');
+NewText = Replace(NewText, 'к', 'К');
 Console.WriteLine(NewText);
 
 Console.WriteLine();
-NewText = Replace(Newtext, 'С', 'с');
+NewText = Replace(NewText, 'С', 'с');
 Console.WriteLine(NewText);
+
